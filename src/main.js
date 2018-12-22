@@ -6,7 +6,7 @@ import store from '@/state/store'
 import 'nprogress/nprogress.css'
 import '@/scss/style.scss'
 
-import vueSmoothScroll from 'vue2-smooth-scroll'
+import vueSmoothScroll from 'vue-scrollto'
 
 Vue.use(vueSmoothScroll)
 

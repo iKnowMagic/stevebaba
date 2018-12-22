@@ -1,7 +1,9 @@
 <template>
   <footer class="probootstrap-footer">
     <div class="probootstrap-backtotop">
-      <a href="#" class="js-backtotop"><i class="icon-chevron-thin-up"></i></a>
+      <div class="js-backtotop link" v-scroll-to="{ el: '#app', duration: 1000 }">
+        <i class="icon-chevron-thin-up"></i>
+      </div>
     </div>
     <div class="container">
       <div class="row mb50">

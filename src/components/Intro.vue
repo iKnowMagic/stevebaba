@@ -15,10 +15,11 @@
         </div>
       </div>
     </div>
-    <span class="probootstrap-animate fadeInUp probootstrap-animated"
-      ><a class="probootstrap-scroll-down js-next" href="#about" v-smooth-scroll="{ duration: 1000, offset: 10 }"
-        >Scroll down <i class="icon-chevron-down"></i></a
-    ></span>
+    <span class="probootstrap-animate fadeInUp probootstrap-animated link">
+      <div class="probootstrap-scroll-down js-next" v-scroll-to="{ el: '#about', duration: 1000 }">
+        Scroll down <i class="icon-chevron-down"></i>
+      </div>
+    </span>
   </section>
 </template>
 
@@ -29,6 +30,6 @@ export default {}
 <style scoped>
 .probootstrap-intro {
   background-image: url('~@/assets/img/demo/hero_bg_1_b.jpg');
-  background-position: 0px 0px;
+  background-position: 0 0;
 }
 </style>

@@ -12,8 +12,9 @@
     "nprogress": "^0.2.0",
     "vue": "^2.5.17",
     "vue-meta": "^1.5.8",
+    "vue-owl-carousel": "^2.0.3",
     "vue-router": "^3.0.1",
-    "vue2-smooth-scroll": "^1.0.3",
+    "vue-scrollto": "^2.13.0",
     "vuex": "^3.0.1"
   },
   "devDependencies": {
