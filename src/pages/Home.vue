@@ -6,6 +6,7 @@
       <About />
       <Books />
     </main>
+    <Footer />
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import Header from '@/components/Header'
 import Intro from '@/components/Intro'
 import About from '@/components/About'
 import Books from '@/components/Books'
+import Footer from '@/components/Footer'
 
 export default {
   name: 'home',
@@ -21,7 +23,8 @@ export default {
     Header,
     Intro,
     About,
-    Books
+    Books,
+    Footer
   }
 }
 </script>

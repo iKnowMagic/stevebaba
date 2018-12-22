@@ -1,5 +1,5 @@
 <template>
-  <section id="next-section" class="probootstrap-section">
+  <section id="about" class="probootstrap-section">
     <div class="container">
       <div class="row probootstrap-gutter60 mb50">
         <div class="col-md-6">
