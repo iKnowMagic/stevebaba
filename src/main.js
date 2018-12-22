@@ -1,7 +1,9 @@
 import Vue from 'vue'
-import App from './App.vue'
-import router from './router'
-import store from './store'
+import App from '@/App.vue'
+import router from '@/router'
+import store from '@/state/store'
+
+import 'nprogress/nprogress.css'
 
 Vue.config.productionTip = false
 
