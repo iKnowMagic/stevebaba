@@ -1,7 +1,7 @@
 <template>
   <header role="banner" class="probootstrap-header">
     <div class="container-fluid">
-      <a href="index.html" class="probootstrap-logo">Writer<span>.</span></a>
+      <router-link to="/" class="probootstrap-logo">Writer<span>.</span></router-link>
 
       <a href="#" class="probootstrap-burger-menu visible-xs"><i>Menu</i></a>
       <div class="mobile-menu-overlay"></div>

@@ -6,6 +6,10 @@ import store from '@/state/store'
 import 'nprogress/nprogress.css'
 import '@/scss/style.scss'
 
+import vueSmoothScroll from 'vue2-smooth-scroll'
+
+Vue.use(vueSmoothScroll)
+
 Vue.config.productionTip = false
 
 new Vue({
