@@ -25,4 +25,5 @@
 
 .link {
   cursor: pointer;
+  @extend a;
 }

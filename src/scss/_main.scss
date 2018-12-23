@@ -225,7 +225,7 @@ a {
       margin-bottom: 10px;
     }
 
-    a {
+    a, span, div {
       padding: 10px 0;
       font-size: 14px;
       color: $brand-white;
@@ -711,7 +711,11 @@ a {
 .probootstrap-section {
   position: relative;
   z-index: 2;
-  padding: 5em 0;
+  padding: 5em 0 0;
+
+  &:last-child {
+    padding: 5em 0;
+  }
 
   &.probootstrap-section-sm {
     padding: 3em 0;

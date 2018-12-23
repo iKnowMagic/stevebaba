@@ -8,10 +8,9 @@
 
       <nav role="navigation" class="probootstrap-nav hidden-xs">
         <ul class="probootstrap-main-nav">
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="programs.html">Books</a></li>
-          <li><a href="about.html">About Me</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><span class="link" v-scroll-to="{ el: '#books', duration: 1000 }">Books</span></li>
+          <li><span class="link" v-scroll-to="{ el: '#about', duration: 1000 }">About Me</span></li>
+          <li><span class="link" v-scroll-to="{ el: '#contact', duration: 1000 }">Contact</span></li>
         </ul>
         <ul class="probootstrap-header-social hidden-xs">
           <li>

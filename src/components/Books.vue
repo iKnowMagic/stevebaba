@@ -1,5 +1,5 @@
 <template>
-  <section class="probootstrap-section">
+  <section class="probootstrap-section" id="books">
     <div class="container">
       <div class="row">
         <div class="col-md-12 probootstrap-relative">
@@ -14,6 +14,22 @@
             dotsContainer="false"
             navContainer=".probootstrap-owl-navigation"
             :navText="[prevItem, nextItem]"
+            :loop="true"
+            :smartSpeed="800"
+            :responsive="{
+              0: {
+                items: 1
+              },
+              400: {
+                items: 1
+              },
+              600: {
+                items: 2
+              },
+              1000: {
+                items: 3
+              }
+            }"
           >
             <div class="item">
               <div class="probootstrap-program">

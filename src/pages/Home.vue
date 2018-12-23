@@ -5,6 +5,7 @@
     <main>
       <About />
       <Books />
+      <Contact />
     </main>
     <Footer />
   </div>
@@ -16,6 +17,7 @@ import Intro from '@/components/Intro'
 import About from '@/components/About'
 import Books from '@/components/Books'
 import Footer from '@/components/Footer'
+import Contact from '@/components/Contact'
 
 export default {
   name: 'home',
@@ -24,7 +26,8 @@ export default {
     Intro,
     About,
     Books,
-    Footer
+    Footer,
+    Contact
   }
 }
 </script>
