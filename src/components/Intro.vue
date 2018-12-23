@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-md-7 probootstrap-intro-text">
           <h1 class="probootstrap-animate fadeIn probootstrap-animated" data-animate-effect="fadeIn">
-            <span>Steve</span> Baba
+            <span>Steve</span> Babas
           </h1>
           <div
             class="probootstrap-subtitle probootstrap-animate fadeIn probootstrap-animated"

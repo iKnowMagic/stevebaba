@@ -27,3 +27,9 @@
   cursor: pointer;
   @extend a;
 }
+
+.sticky {
+  position: fixed;
+  padding-top: 0;
+  padding-bottom: 0;
+}

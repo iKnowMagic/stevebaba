@@ -8,16 +8,9 @@
         <div class="col-md-6">
           <form action="#" method="post" class="probootstrap-form">
             <div class="row">
-              <div class="col-md-6">
+              <div class="col-md-12">
                 <div class="form-group">
-                  <label for="fname">First Name</label>
-                  <input type="text" class="form-control" id="fname" name="fname" />
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="form-group">
-                  <label for="lname">Last Name</label>
-                  <input type="text" class="form-control" id="lname" name="lname" />
+                  <label for="fname">Name</label> <input type="text" class="form-control" id="fname" name="fname" />
                 </div>
               </div>
             </div>
