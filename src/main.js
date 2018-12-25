@@ -8,7 +8,6 @@ import '@/scss/style.scss'
 
 import vueSmoothScroll from 'vue-scrollto'
 import VueMq from 'vue-mq'
-import VueParallaxJs from 'vue-parallax-js'
 
 Vue.use(vueSmoothScroll)
 Vue.use(VueMq, {
@@ -20,7 +19,6 @@ Vue.use(VueMq, {
   },
   defaultBreakpoint: 'sm' // customize this for SSR
 })
-Vue.use(VueParallaxJs)
 
 Vue.config.productionTip = false
 
