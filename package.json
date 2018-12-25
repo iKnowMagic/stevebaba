@@ -5,7 +5,9 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "styleguide": "vue-cli-service styleguidist",
+    "styleguide:build": "vue-cli-service styleguidist:build"
   },
   "dependencies": {
     "bootstrap": "^3.3.7",
@@ -46,6 +48,7 @@
     "stylelint-config-recess-order": "^2.0.1",
     "stylelint-config-standard": "^18.2.0",
     "stylelint-scss": "^3.4.2",
+    "vue-cli-plugin-styleguidist": "^0.1.10",
     "vue-template-compiler": "^2.5.17"
   },
   "gitHooks": {
