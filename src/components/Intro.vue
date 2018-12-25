@@ -1,10 +1,10 @@
 <template>
-  <section class="probootstrap-intro" data-stellar-background-ratio="0.5">
+  <section class="probootstrap-intro">
     <div class="container">
       <div class="row">
         <div class="col-md-7 probootstrap-intro-text">
           <h1 class="probootstrap-animate fadeIn probootstrap-animated" data-animate-effect="fadeIn">
-            <span>Steve</span> Babas
+            <span>Steve</span> Baba
           </h1>
           <div
             class="probootstrap-subtitle probootstrap-animate fadeIn probootstrap-animated"
@@ -24,7 +24,15 @@
 </template>
 
 <script>
-export default {}
+import { jarallax } from 'jarallax'
+
+export default {
+  mounted() {
+    jarallax(document.querySelectorAll('.probootstrap-intro'), {
+      speed: 0.2
+    })
+  }
+}
 </script>
 
 <style scoped>
