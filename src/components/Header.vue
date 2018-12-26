@@ -11,10 +11,10 @@
 
       <nav role="navigation" class="probootstrap-nav hidden-xs">
         <ul class="probootstrap-main-nav">
-          <li><span class="link" v-scroll-to="{ el: '#books', duration: 1000, onStart: closeMenu }">Books</span></li>
-          <li><span class="link" v-scroll-to="{ el: '#about', duration: 1000, onStart: closeMenu }">About Me</span></li>
+          <li><span v-scroll-to="{ el: '#books', duration: 1000, onStart: closeMenu }" class="link">Books</span></li>
+          <li><span v-scroll-to="{ el: '#about', duration: 1000, onStart: closeMenu }" class="link">About Me</span></li>
           <li>
-            <span class="link" v-scroll-to="{ el: '#contact', duration: 1000, onStart: closeMenu }">Contact</span>
+            <span v-scroll-to="{ el: '#contact', duration: 1000, onStart: closeMenu }" class="link">Contact</span>
           </li>
         </ul>
         <ul class="probootstrap-header-social hidden-xs">
@@ -65,5 +65,3 @@ export default {
   }
 }
 </script>
-
-<style scoped></style>

@@ -1,7 +1,7 @@
 <template>
   <footer class="probootstrap-footer">
     <div class="probootstrap-backtotop">
-      <div class="js-backtotop link" v-scroll-to="{ el: '#app', duration: 1000 }">
+      <div v-scroll-to="{ el: '#app', duration: 1000 }" class="js-backtotop link">
         <i class="icon-chevron-thin-up"></i>
       </div>
     </div>
@@ -16,5 +16,3 @@
 <script>
 export default {}
 </script>
-
-<style scoped></style>

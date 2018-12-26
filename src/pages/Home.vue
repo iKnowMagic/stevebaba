@@ -21,7 +21,7 @@ import Footer from '@/components/Footer'
 import Contact from '@/components/Contact'
 
 export default {
-  name: 'home',
+  name: 'Home',
   components: {
     Header,
     Intro,

@@ -16,7 +16,7 @@
       </div>
     </div>
     <span class="probootstrap-animate fadeInUp probootstrap-animated link">
-      <div class="probootstrap-scroll-down js-next" v-scroll-to="{ el: '#about', duration: 1000 }">
+      <div v-scroll-to="{ el: '#about', duration: 1000 }" class="probootstrap-scroll-down js-next">
         Scroll down <i class="icon-chevron-down"></i>
       </div>
     </span>
