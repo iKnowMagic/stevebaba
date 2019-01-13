@@ -30,8 +30,7 @@ module.exports = {
     // Limit the number of universal selectors in a selector,
     // to avoid very slow selectors
     'selector-max-universal': 1,
-    // Disallow allow global element/type selectors in scoped modules
-    'selector-max-type': [0, { ignore: ['child', 'descendant', 'compounded'] }],
+
     // ===
     // PRETTIER
     // ===
@@ -54,20 +53,16 @@ module.exports = {
     'scss/dollar-variable-colon-space-before': 'never',
     'scss/dollar-variable-no-missing-interpolation': true,
     // 'scss/dollar-variable-pattern': /^[a-z-]+$/,
-    'scss/double-slash-comment-whitespace-inside': 'always',
     'scss/operator-no-newline-before': true,
-    'scss/operator-no-unspaced': true,
     'scss/selector-no-redundant-nesting-selector': true,
     // Allow SCSS and CSS module keywords beginning with `@`
     'at-rule-no-unknown': null,
-    'scss/at-rule-no-unknown': true,
     'declaration-colon-space-after': 'always',
 
     // Other
     /* eslint-disable */
     'no-descending-specificity': null,
     'media-feature-name-no-unknown': null,
-    'selector-max-type': null,
     'scss/at-rule-no-unknown': null,
     'selector-max-type': null,
     'scss/double-slash-comment-whitespace-inside': null,
